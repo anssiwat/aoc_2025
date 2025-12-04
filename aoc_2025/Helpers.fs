@@ -9,10 +9,10 @@ let readLinesFromFile (filePath: string) : string list =
     with
     | :? FileNotFoundException ->
         printfn "Error: The file was not found at path '%s'" filePath
-        [] 
+        []
     | ex ->
         printfn "An unexpected error occurred: %s" ex.Message
-        [] 
+        []
 
 
 // let path = "movements.txt"

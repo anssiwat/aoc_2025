@@ -11,7 +11,7 @@ let runDay day =
 [<EntryPoint>]
 let main argv =
     // Now, we call our run function from within the main entry point.
-    Day01.run()
+    Day01.run ()
 
     // The main function MUST return an integer exit code.
     // 0 is the standard for success.
