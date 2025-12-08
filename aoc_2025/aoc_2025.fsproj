@@ -8,6 +8,7 @@
     <ItemGroup>
         <Compile Include="Helpers.fs" />
         <Compile Include="Day1.fs" />
+        <Compile Include="Day2.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
@@ -17,6 +18,12 @@
         </Content>
         <Content Include="inputs\day_01_input.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="inputs\day_02_example.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="inputs\day_02_input.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
 </Project>

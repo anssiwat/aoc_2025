@@ -2,7 +2,6 @@ module aoc_2025.Day1
 
 open System.IO
 open aoc_2025
-open aoc_2025.Helpers
 
 module Day01 =
     let inputPath = "inputs/day_01_input.txt"

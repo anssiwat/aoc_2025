@@ -13,3 +13,14 @@ let readLinesFromFile (filePath: string) : string list =
     | ex ->
         printfn "An unexpected error occurred: %s" ex.Message
         []
+
+let readTxtFile (filePath: string) : string =
+    try
+        File.ReadAllText(filePath)
+    with
+    | :? FileNotFoundException ->
+        printfn "Error: The file was not found at path '%s'" filePath
+        "" 
+    | ex ->
+        printfn "An unexpected error occurred: %s" ex.Message
+        ""
